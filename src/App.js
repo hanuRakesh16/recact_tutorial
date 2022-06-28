@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Bind from './components/Bind';
+import ClassClick from './components/ClassClick';
+import FuncClick from './components/FuncClick';
+// import Greet from './components/Greet';
+// import Com from './components/Com';
+// import State from './components/State';
+import Increment from './components/Increment'
+import Parent from './components/Parent'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Parent />
+      {/* <Bind /> */}
+      {/* <Increment /> */}
+      {/* <FuncClick /> */}
+      {/* <ClassClick /> */}
+      {/* <State /> */}
+      {/* <Greet name="Hanu" /> */}
+      {/* <Greet name="Rakesh" /> */}
+      {/* <Com /> */}
     </div>
   );
 }
